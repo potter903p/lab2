@@ -4,7 +4,8 @@ using namespace std;
 class BMI{
 	public:
 		float getValue();
-		string getType();
+		string getType(float value);
+
 		void setHeight(float h);
 		void setWeight(float w);
 	private:

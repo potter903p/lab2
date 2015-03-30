@@ -16,7 +16,7 @@ int main(void){
         while(inFile>>height>>weight){
                 A.setHeight(height);
                 A.setWeight(weight);
-                outFile<<A.getValue()<<"\t"<<A.getType()<<endl;
+                outFile<<A.getValue()<<"\t"<<A.getType(A.getValue())<<endl;
         }
 
 
